@@ -36,9 +36,7 @@ const Home: FC = () => {
             </button>
           </p>
           <p>
-            Painting beautiful interfaces, building tools and crafting polished
-            user interactions that feel delightful to use. Besides that, I take
-            photos, lift weights and I'm interested in Linux, Vim, alongside
+            I lift weights, do photograpgy and am interested in SwiftUI, plus
             other random computer things.
           </p>
           <svg
@@ -55,18 +53,22 @@ const Home: FC = () => {
             />
           </svg>
           <p>
-            If you're ever near the Dallas-Fort Worth area, let's hang out.
-            Looking for new opportunities. Reach out at{" "}
+            If you're ever near the D.C. Area, let's hang out. In search of new
+            opportunities. Reach out at{" "}
             <a
-              href="https://twitter.com/harshhhdev"
+              href="https://twitter.com/_plyght_"
               target="_blank"
               rel="noreferrer"
             >
-              @harshhhdev
+              @_plyght_
             </a>{" "}
             or{" "}
-            <a href="mailto:hi.harsh@pm.me" target="_blank" rel="noreferrer">
-              hi.harsh@pm.me
+            <a
+              href="mailto:chimp.00skiers@icloud.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              chimp.00skiers@icloud.com
             </a>
             .
           </p>
