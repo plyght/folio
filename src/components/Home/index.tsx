@@ -56,14 +56,6 @@ const Home: FC = () => {
             If you're ever near the D.C. Area, let's hang out. In search of new
             opportunities. Reach out at{" "}
             <a
-              href="https://twitter.com/_plyght_"
-              target="_blank"
-              rel="noreferrer"
-            >
-              @_plyght_
-            </a>{" "}
-            or{" "}
-            <a
               href="mailto:chimp.00skiers@icloud.com"
               target="_blank"
               rel="noreferrer"
