@@ -21,39 +21,14 @@ export const Socials: FC = () => {
           href: "https://github.com/plyght",
         },
         {
-          aria: "Twitter",
-          icon: FiTwitter,
-          href: "https://twitter.com/_plyght_",
-        },
-        {
           aria: "Dribbble",
           icon: FiDribbble,
           href: "https://dribbble.com/plyght",
         },
         {
-          aria: "Linkedin",
-          icon: FiLinkedin,
-          href: "https://linkedin.com/in/harshhhdev",
-        },
-        {
           aria: "YouTube",
           icon: FiYoutube,
           href: "https://www.youtube.com/@plyght_",
-        },
-        {
-          aria: "Instagram",
-          icon: FiInstagram,
-          href: "https://www.instagram.com/haaarshsingh",
-        },
-        {
-          aria: "Discord",
-          icon: RxDiscordLogo,
-          href: "https://discord.com/users/518432133111611397",
-        },
-        {
-          aria: "Snapchat",
-          icon: RiSnapchatLine,
-          href: "https://snapchat.com/add/harshhhhsingh",
         },
       ].map((link, index) => (
         <a
