@@ -7,10 +7,8 @@ import { FiMapPin, FiMinus, FiPlus } from 'react-icons/fi'
 import Image from 'next/image'
 import Section from './Section'
 import * as data from './data'
-import mapboxgl from 'mapbox-gl'
 import { rgbDataURL } from '../MDX'
 
-mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_GL_ACCESS_TOKEN
 
 // Not my actual location, obviously
 const center: mapboxgl.LngLatLike = [-96.438055, 32.782434]
@@ -20,7 +18,7 @@ const About: FC = () => (
     <div className={styles.container}>
       <div className={styles.image}>
         <Image
-          src='/headshot-crop.jpg'
+          src='/test.jpg'
           alt='My face'
           width={300.54}
           height={471}
@@ -32,7 +30,7 @@ const About: FC = () => (
       </div>
       <div className={styles.image}>
         <Image
-          src='/dallas.jpg'
+          src='/test2.jpg'
           alt='Skyshot of Dallas, Texas'
           width={510}
           height={347.56}
@@ -51,7 +49,7 @@ const About: FC = () => (
       content={data.work}
       extend={{
         title: 'All Works',
-        href: 'https://github.com/harshhhdev',
+        href: 'https://github.com/plyght',
         newTab: true,
       }}
       id='works'
@@ -60,7 +58,7 @@ const About: FC = () => (
     </Section>
     <Section
       content={data.writing}
-      extend={{ title: 'All Writing', href: '/writing' }}
+      extend={{ title: 'All Writing', href: '/' }}
       id='writing'
     >
       <h2 className={styles.title}>Select Writing</h2>
@@ -71,19 +69,6 @@ const About: FC = () => (
 const Map: FC = () => {
   const [zoom, setZoom] = useState(11)
   const [map, setMap] = useState<mapboxgl.Map | null>(null)
-
-  useEffect(
-    () =>
-      setMap(
-        new mapboxgl.Map({
-          container: 'mapbox',
-          style: 'mapbox://styles/harshhhdev/clf6is4qj000501mn4j04t7l3',
-          center: center,
-          zoom: 11,
-        })
-      ),
-    []
-  )
 
   return (
     <section className={styles.section} id='where'>

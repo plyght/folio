@@ -4,12 +4,12 @@ export const about: Content[] = [
   {
     title: 'Background',
     content:
-      "Born and raised in New Delhi, India. I've been into coding from a young age, and I'm passionate about many creative pursuits, including photography, design, and coding. This combination of interests is what led me to develop skills through guiltlessly exploring my passions and interests. I center my work on teaching/writing to empower, educate and elevate people.",
+      "Born and raised in Washington, DC. I've been into coding from a young age, and I'm passionate about photography and coding.",
   },
   {
     title: 'Skills',
     content:
-      "I primarily work with React and Next.js ecosystem, and I've worked extensively with several tools such as TypeScript, Jest/Enzyme, Redux, Storybook, Chakra, Tailwind/SCSS, PostgreSQL, CircleCI, and much more. The web is an endless medium of opportunities, and I have yet to scratch the surface.",
+      "I primarily work with SwiftUI and HTML, and I've worked extensively with several tools such as Javascript, Tailwind/SCSS, and more.",
   },
   {
     title: 'Now',
@@ -20,63 +20,31 @@ export const about: Content[] = [
 
 export const work: Content[] = [
   {
-    title: 'kmenu',
+    title: 'My Github Pages',
     content:
-      'An accessible and animated React command menu interface for a refined navigation experience.',
-    href: 'https://kmenu.hxrsh.in',
-    newTab: true,
-  },
-  {
-    title: 'snip',
-    content: 'A lightweight pastebin for sharing text and code snippets.',
-    href: 'https://snip.place',
-    newTab: true,
-  },
-  {
-    title: "Harsh's Lab (WIP)",
-    content: 'Exploring and documenting magical details in user interfaces.',
-    href: 'https://twitter.com/harshhhdev/status/1588705118681468928',
-    newTab: true,
-  },
-  {
-    title: 'Custom Pointer React',
-    content: 'Animated custom cursors for React.',
-    href: 'https://twitter.com/harshhhdev/status/1588705118681468928',
+      'My github pages website',
+    href: 'https://plyght.github.io',
     newTab: true,
   },
   {
     title: 'dotfiles',
-    content: 'Pastel-themed i3wm and Arch Linux rice.',
-    href: 'https://twitter.com/harshhhdev/status/1588705118681468928',
+    content: 'My MacOS dotfiles.',
+    href: 'https://github.com/plyght/macdots',
+    newTab: true,
+  },
+  {
+    title: "PongJS",
+    content: 'A basic game of pong written in JavaScript you can run in your browser/localhost',
+    href: 'https://github.com/plyght/pongjs',
+    newTab: true,
+  },
+  {
+    title: 'Bruh2.0',
+    content: 'A copy of the idea of https://github.com/face-hh/bruh, but it works on MacOS and its all my own code',
+    href: 'https://github.com/plyght/bruh2.0',
     newTab: true,
   },
 ]
 
 export const writing: Content[] = [
-  {
-    title: 'Creating an Accessible Command Menu in React',
-    content: 'All about building custom accessible command menus.',
-    href: '/writing/cmdk',
-  },
-  {
-    title: "Why ORMs Aren't Always a Great Idea",
-    content:
-      "Why ORMs aren't always a great way to represent and model relational data.",
-    href: '/writing/orms',
-  },
-  {
-    title: 'Referential Integrity With Sharded Databases',
-    content: 'Exploring sharding and referential integrity.',
-    href: '/writing/sharded-dbs',
-  },
-  {
-    title: 'Designing for the Elderly',
-    content: 'A guide to design accessible interfaces for older adults.',
-    href: '/writing/elderly',
-  },
-  {
-    title: 'Business Cards in the Terminal',
-    content: 'Hacker-esque introductions with NPM.',
-    href: '/writing/cards',
-  },
 ]
