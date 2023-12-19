@@ -19,7 +19,7 @@ const About: FC = () => (
       <div className={styles.image}>
         <Image
           src='/test.jpg'
-          alt='My face'
+          alt='Clouds'
           width={300.54}
           height={471}
           draggable={false}
@@ -31,7 +31,7 @@ const About: FC = () => (
       <div className={styles.image}>
         <Image
           src='/test2.jpg'
-          alt='Skyshot of Dallas, Texas'
+          alt='BMW M5'
           width={510}
           height={347.56}
           draggable={false}
@@ -58,10 +58,10 @@ const About: FC = () => (
     </Section>
     <Section
       content={data.writing}
-      extend={{ title: 'All Writing', href: '/' }}
+      extend={{ title: '', href: '/' }}
       id='writing'
     >
-      <h2 className={styles.title}>Select Writing</h2>
+      <h2 className={styles.title}></h2>
     </Section>
   </div>
 )
