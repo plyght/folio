@@ -4,9 +4,10 @@ node_modules/
 jspm_packages/
 bower_components/
 
-# Bun
+# Bun and Bun Dev
 .bun/
 bun.lockb
+.contentlayer
 
 # Lock files (uncomment if not needed)
 # package-lock.json
@@ -171,4 +172,3 @@ sftp-config.json
 *.tsx
 
 # End of https://www.gitignore.io/api/node,linux,macos,windows
-
