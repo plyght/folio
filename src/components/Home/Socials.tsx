@@ -1,4 +1,4 @@
-import type { FC } from 'react'
+import type { FC } from "react";
 import {
   FiDribbble,
   FiGithub,
@@ -6,60 +6,60 @@ import {
   FiLinkedin,
   FiTwitter,
   FiYoutube,
-} from 'react-icons/fi/index'
-import { RiSnapchatLine } from 'react-icons/ri'
-import { RxDiscordLogo } from 'react-icons/rx'
-import styles from '@css/home.module.css'
+} from "react-icons/fi/index";
+import { RiSnapchatLine } from "react-icons/ri";
+import { RxDiscordLogo } from "react-icons/rx";
+import styles from "@css/home.module.css";
 
 export const Socials: FC = () => {
   return (
     <div className={styles.socials}>
       {[
         {
-          aria: 'GitHub',
+          aria: "GitHub",
           icon: FiGithub,
-          href: 'https://github.com/harshhhdev',
+          href: "https://github.com/plyght",
         },
         {
-          aria: 'Twitter',
+          aria: "Twitter",
           icon: FiTwitter,
-          href: 'https://twitter.com/harshhhdev',
+          href: "https://twitter.com/_plyght_",
         },
         {
-          aria: 'Dribbble',
+          aria: "Dribbble",
           icon: FiDribbble,
-          href: 'https://dribbble.com/harshhhdev',
+          href: "https://dribbble.com/plyght",
         },
         {
-          aria: 'Linkedin',
+          aria: "Linkedin",
           icon: FiLinkedin,
-          href: 'https://linkedin.com/in/harshhhdev',
+          href: "https://linkedin.com/in/harshhhdev",
         },
         {
-          aria: 'YouTube',
+          aria: "YouTube",
           icon: FiYoutube,
-          href: 'https://www.youtube.com/@harshhhdev',
+          href: "https://www.youtube.com/@plyght_",
         },
         {
-          aria: 'Instagram',
+          aria: "Instagram",
           icon: FiInstagram,
-          href: 'https://www.instagram.com/haaarshsingh',
+          href: "https://www.instagram.com/haaarshsingh",
         },
         {
-          aria: 'Discord',
+          aria: "Discord",
           icon: RxDiscordLogo,
-          href: 'https://discord.com/users/518432133111611397',
+          href: "https://discord.com/users/518432133111611397",
         },
         {
-          aria: 'Snapchat',
+          aria: "Snapchat",
           icon: RiSnapchatLine,
-          href: 'https://snapchat.com/add/harshhhhsingh',
+          href: "https://snapchat.com/add/harshhhhsingh",
         },
       ].map((link, index) => (
         <a
           href={link.href}
-          target='_blank'
-          rel='noreferrer'
+          target="_blank"
+          rel="noreferrer"
           className={styles.social}
           key={index}
           aria-label={link.aria}
@@ -68,5 +68,5 @@ export const Socials: FC = () => {
         </a>
       ))}
     </div>
-  )
-}
+  );
+};
