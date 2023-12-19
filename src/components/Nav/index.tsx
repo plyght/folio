@@ -17,12 +17,11 @@ type Item = {
 const items: Items = {
   "/": { name: "Home", x: 0, w: "77.95px" },
   "/about": { name: "About", x: 77.95, w: "78.48px" },
-  "/writing": { name: "Writing", x: 156.43, w: "85.33px" },
 };
 
 const Nav: FC = () => {
   let pathname = usePathname() || "/";
-  if (pathname.includes("/writing/")) pathname = "/writing";
+  if (pathname.includes("//")) pathname = "/";
   else if (pathname === "/404" || pathname === "/_not-found") pathname = "/";
 
   return (
